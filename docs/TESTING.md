@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-Python 3.10 or newer. The repository does not require an install step, package download, database server, or network access.
+Python 3.11 or newer. The repository does not require an install step, package download, database server, or network access.
 
 ## Reviewer command
 
