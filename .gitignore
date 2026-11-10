@@ -1,0 +1,51 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets (example templates may be committed)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+coverage.json
+.mypy_cache/
+.pyright/
+.pytype/
+
+# Local data and generated databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.log
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.wheels/
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local container state
+.docker-volumes/
