@@ -1,10 +1,10 @@
 # Club Tournament Desk
 
-Club Tournament Desk is an offline-first Python application for running a small chess-club round-robin event. It handles the operational work around a tournament: event setup, player registration, schedule generation, result entry and correction, standings, and a durable audit trail. The included chess rules engine remains available for a terminal game and for rule-focused regression tests.
+Club Tournament Desk is a command-line tool for organizing round-robin chess events. An organizer can create an event, register players, generate pairings, enter or correct results, and review standings. Players compete outside the application; the tool manages the schedule and records the results.
 
-The project is intended for organizers who need a lightweight local record of an event without setting up a hosted service, a database server, or third-party Python packages. It stores data in SQLite and runs with Python 3.10 or newer.
+Event records are saved in a local SQLite database. The application needs no database server, internet connection, or third-party Python packages.
 
-**Engine scope:** this is a chess rules implementation with a basic one-move material opponent, not a Stockfish-strength engine. It does not implement look-ahead search or timed games. The tournament commands manage round-robin schedules and results; games are played outside the application. The current interface is command-line only.
+The repository also includes a separate terminal chess game built on its chess rules engine. A player chooses a side and plays against a basic opponent. The engine validates moves and handles special moves and game-ending conditions. This demo is separate from the tournament workflow.
 
 ## What it does
 
